@@ -1,8 +1,7 @@
 import 'dart:math' as math;
 
-import 'package:flutter/material.dart';
-
-import '../model/partical.dart';
+import 'package:flutter/widgets.dart';
+import 'package:funny_animation_flutter/model/partical.dart';
 
 class MyPainter extends CustomPainter {
   final List<Particle> particles;

@@ -5,14 +5,14 @@ import 'package:flutter/material.dart';
 import 'model/partical.dart';
 import 'widgets/painter.dart';
 
-class ScoreScreans extends StatefulWidget {
-  const ScoreScreans({Key? key}) : super(key: key);
+class FunnyAnimation extends StatefulWidget {
+  const FunnyAnimation({Key? key}) : super(key: key);
 
   @override
-  _ScoreScreansState createState() => _ScoreScreansState();
+  _FunnyAnimationState createState() => _FunnyAnimationState();
 }
 
-class _ScoreScreansState extends State<ScoreScreans>
+class _FunnyAnimationState extends State<FunnyAnimation>
     with SingleTickerProviderStateMixin {
   late Animation<double> animation;
   late AnimationController controller;
